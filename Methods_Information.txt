@@ -1,0 +1,23 @@
+1. Method `reformatInputData`:
+Converts input data from a one-dimensional string array to a two-dimensional string array for easy handling.
+
+2. Method `executor`:
+Iterates through the input data and finds all queries of type 'D', calling the `findMatchingData` method for each of them.
+
+3. Method `findMatchingData`:
+Searches for all 'C' records that match the parameters of the current query of type 'D'.
+
+4. Methods `matchesService`, `matchesQuestionType`, `matchesResponseType` and `matchesDate`:
+Check that the parameters of the 'C' record match the parameters of the current request of type 'D'.
+
+5. Method `getResponse`:
+Calculates the average wait time for found 'C' records and adds the result to the list of responses.
+
+6. Method `getAverage`:
+Calculates the average time value for a list of found records.
+
+7. Method `printResult`:
+Prints the final result to the console.
+
+8. Method `customDateFormatter`:
+Specifies the date format for processing input data.
